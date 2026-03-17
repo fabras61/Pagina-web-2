@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Anton';
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#hero {
+    padding-top: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/4c311878d4e64f7b23c147a63ea8eebf.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+#hero h1 {
+    font-family: 'times new roman';
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.cta-button:hover {
+    background-color: black;
+    color: white;
+}
+
+#Sobrenosotros {
+    padding-top: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/cd7326c5cf819ed105298f3562d0ab1f.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+#Sobrenosotros h2 {
+    font-family: 'times new roman';
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#Sobrenosotros p {
+    font-family: 'time new roman';
+    font-size: 2rem;
+}
+
+#Catalogo {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#Catalogo h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.Catalogo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.servicio-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.servicio-card:hover {
+    background-color: ghostwhite;
+    cursor: pointer;
+    color: white;
+}
+
+.servicio-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.servicio-card h4 {
+    padding: 1rem;
+    color: black;
+}
+
+.servicio-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.servicio-card button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+.precio {
+    color: rgb(2, 170, 2);
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.descripcion {
+    padding: .5rem 1rem;
+    color: #666;
+}
+
+#Contacto {
+    background-color: olive;
+    padding: 4rem 2rem;
+}
+
+#Contacto h5 {
+    font-family: 'times new roman';
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#Productos h3 {
+    font-family: 'times new roman';
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 auto;
+    margin-top: 2px;
+}
+
+#carrito {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: darkgray;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#carrito h2 {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#cart-item li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #1c1c1c;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#carrito p {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#carrito button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#carrito button:first-of-type {
+    background: #333;
+    color: white;
+}
+
+#carrito button:first-of-type:hover {
+    background: #555;
+}
+
+#carrito  button:last-of-type {
+    background: #250366;
+    color: white;
+    font-weight: bold;
+}
+
+#carrito button:last-of-type:hover {
+    background: #1ebe5d;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input, textarea {
+    padding: .8rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    background-color: rgb(207, 49, 49);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(216, 0, 0);
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 430px) {
+    nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+}

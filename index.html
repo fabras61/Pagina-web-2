@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Catalogo virtual</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a href="https://wa.me/549xxxxxxxx" class="whatsapp" target="_blank">
+      WhatsApp
+    </a>
+
+    <header>
+      <nav>
+        <div class="logo">VOID DISTRICT</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#Sobrenosotros">Sobre nosotros</a></li>
+          <li><a href="#Catalogo">Catalogo</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+
+        <ul>
+          <div class="cart-icon">
+            <a href="carrito.html" target="_blank">
+              🛒 <span id="cart-count">0</span>
+            </a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>VOID DISTRICT</h1>
+        <p>La mejor ropa streetwear de argentina</p>
+        <a href="#Catalogo" class="cta-button">Ver Catalogo</a>
+      </section>
+
+      <section id="Sobrenosotros">
+        <h2>Sobre nosotros</h2>
+        <p>
+          VOID DISTRICT nace de la cultura de la calle, inspirado en la noche de
+          la ciudad, el arte urbano y la rebeldía de la nueva generación. La
+          marca representa a quienes viven sin seguir reglas, creando su propio
+          camino entre el caos urbano y la creatividad.
+        </p>
+      </section>
+
+      <section id="Catalogo">
+        <h3>Nuestras Prendas</h3>
+        <div class="Catalogo-grid">
+          <div class="servicio-card">
+            <img
+              src="img/0ddef901ca4223b7f41b9da49c57f566.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Brown Set</h4>
+            <p class="precio">U$D 35</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Brown Set', 35)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/0ffe72b3d5acbf4a8cd02d574a78008f.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Grey Set</h4>
+            <p class="precio">U$D 40</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Grey Set', 40)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/3e29d0ff2a5b6f88853fc016b506cf81.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Basic Set</h4>
+            <p class="precio">U$D 25</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Basic Set', 25)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/405bb7a7f2fa701ca24e3f262fd18976.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Basic 2 Set</h4>
+            <p class="precio">U$D 150</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Basic 2 Set', 150)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/44e85b1e68e65efe512ba086a9a74be3.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Grey 2 Set</h4>
+            <p class="precio">U$D 75</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Grey 2 Set', 75)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/8bbb0ddd188ec8eddcb7588053364516.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Essential Set</h4>
+            <p class="precio">U$D 350</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Essential Set', 350)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/c3f5be3368b73528d084a28f30a53ea9.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Lightblue Set</h4>
+            <p class="precio">U$D 35</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Lightblue Set', 35)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/ce00630a4a45e7b791716f3a0900a2ad.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Boston Set</h4>
+            <p class="precio">U$D 245</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Boston Set', 245)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/dc2a06c257617aa249d27de128104e75.jpg"
+              alt="Conjuntos"
+            />
+            <h4>VOID Set</h4>
+            <p class="precio">U$D 15</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('VOID Set', 15)">
+              Agregar al carrito
+            </button>
+          </div>
+
+          <div class="servicio-card">
+            <img
+              src="img/dfa2257c550fa716126aba7ecc447b38.jpg"
+              alt="Conjuntos"
+            />
+            <h4>Green&White Set</h4>
+            <p class="precio">U$D 10</p>
+            <p class="descripcion">Conjunto oversize para verano</p>
+            <button onclick="addToCart('Green&White Set', 10)">
+              Agregar al carrito
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contacto">
+        <h5>Hace tu pedido Mayorista</h5>
+        <form
+          action="https://formsubmit.co/VOIDDISTRICT@gmail.com"
+          method="POST"
+        >
+          <input type="text" name="Nombre" placeholder="Nombre" required />
+          <input type="email" name="Email" placeholder="email" required />
+          <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="Nuevo mensaje desde tu web"
+          />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; Las mejores prendas del mercado. Derechos reservados</p>
+        <a href="https://instagram.com/" target="_blank"
+          >Instagram</a
+        >
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

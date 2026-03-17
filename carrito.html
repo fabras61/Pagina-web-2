@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">VOID DISTRICT</div>
+        <ul class="nav-links">
+          <li><a href="index.html#">Home</a></li>
+          <li><a href="index.html#Sobrenosotros">Sobre nosotros</a></li>
+          <li><a href="index.html#Catalogo">Catalogo</a></li>
+          <li><a href="index.html#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Productos">
+        <h3>Productos seleccionados</h3>
+      </section>
+
+      <section id="carrito">
+        <h2>Carrito</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button onclick="clearCart()">Vaciar carrito</button>
+        <button onclick="buyWhatsApp()">Comprar por WhatsApp</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
