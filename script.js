@@ -67,7 +67,7 @@ function buyWhatsApp() {
 
   message += "%0ATotal: $" + total;
 
-  const phone = "5491136541785";
+  const phone = "549xxxxxxxxxx";
 
   const url = "https://wa.me/" + phone + "?text=" + message;
 
